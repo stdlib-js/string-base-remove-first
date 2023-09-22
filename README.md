@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import removeFirst from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-first@deno/mod.js';
+import removeFirst from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-first@v0.1.0-deno/mod.js';
 ```
 
 #### removeFirst( str, n )
@@ -74,7 +74,7 @@ out = removeFirst( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import removeFirst from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-first@deno/mod.js';
+import removeFirst from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-first@v0.1.0-deno/mod.js';
 
 var str = removeFirst( 'presidential election', 1 );
 // returns 'residential election'
