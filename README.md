@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import removeFirst from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-first@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-remove-first/tags). For example,
+
+```javascript
 import removeFirst from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-first@v0.2.0-deno/mod.js';
 ```
 
@@ -74,7 +79,7 @@ out = removeFirst( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import removeFirst from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-first@v0.2.0-deno/mod.js';
+import removeFirst from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-first@deno/mod.js';
 
 var str = removeFirst( 'presidential election', 1 );
 // returns 'residential election'
