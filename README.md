@@ -112,6 +112,14 @@ str = removeFirst( 'The Last of the Mohicans', 5 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/remove-first-code-point`][@stdlib/string/base/remove-first-code-point]</span><span class="delimiter">: </span><span class="description">remove the first Unicode code point of a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/remove-first-grapheme-cluster`][@stdlib/string/base/remove-first-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">remove the first grapheme cluster (i.e., user-perceived character) of a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/remove-last`][@stdlib/string/base/remove-last]</span><span class="delimiter">: </span><span class="description">remove the last UTF-16 code unit of a string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -187,6 +195,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/string-base-remove-first/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-remove-first/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/remove-first-code-point]: https://github.com/stdlib-js/string-base-remove-first-code-point
+
+[@stdlib/string/base/remove-first-grapheme-cluster]: https://github.com/stdlib-js/string-base-remove-first-grapheme-cluster
+
+[@stdlib/string/base/remove-last]: https://github.com/stdlib-js/string-base-remove-last
+
+<!-- </related-links> -->
 
 </section>
 
